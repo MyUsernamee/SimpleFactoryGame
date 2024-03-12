@@ -4,6 +4,7 @@
 int main () {
 
     raylib::Window window(800, 450, "raylib-cpp - basic window");
+    
 
     SetTargetFPS(60);
 

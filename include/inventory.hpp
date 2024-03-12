@@ -1,6 +1,8 @@
 #include <vector>
 #include "item.hpp"
 
+#pragma once
+
 namespace Factory {
 
     /**

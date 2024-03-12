@@ -1,4 +1,7 @@
 #include <raylib-cpp.hpp>
+#include "entity.hpp"
+
+#pragma once
 
 namespace Factory {
 
@@ -11,7 +14,7 @@ namespace Factory {
     * These can be moved and aren't stuck to the grid.
     * 
     **/
-    class LooseItem {
+    class LooseItem: IEntity {
 
         public:
             Item();
